@@ -22,7 +22,7 @@ int main(int argc, const char * argv[])
             
         {
             triangularNumber += n;
-            NSLog(@"%i         %i", n, triangularNumber);
+            NSLog(@"%-2i         %i", n, triangularNumber);
         }
      
         
